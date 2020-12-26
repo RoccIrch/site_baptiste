@@ -33,7 +33,7 @@ nav ul li a{
   color: black
 }
 nav ul li a:hover{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 nav ul #sur_page{
   text-decoration: underline;
@@ -43,10 +43,14 @@ body p{
   padding: 5px 10px;
 }
 img{
+  transition: all 0.5s;
   border: solid black 1px;
   border-radius: 4px;
   display: block;
-  margin: 5px auto;
+  margin: 10px auto;
+}
+img:hover{
+  transform:scale(1.1);
 }
 h2{
   text-indent: 40px;
